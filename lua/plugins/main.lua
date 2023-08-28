@@ -5,6 +5,7 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+  { "folke/flash.nvim", enabled = false },
   { "prisma/vim-prisma" },
   { "tikhomirov/vim-glsl" },
   {
