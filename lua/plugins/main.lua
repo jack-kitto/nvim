@@ -15,6 +15,16 @@ return {
       arguments = { "-l", "-w", "128", "-h", "256" },
     },
   },
+  { "haydenmeade/neotest-jest" },
+  {
+    "nvim-neotest/neotest",
+    opts = { adapters = { "neotest-jest" } },
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-treesitter/nvim-treesitter",
+      "antoinemadec/FixCursorHold.nvim",
+    },
+  },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
