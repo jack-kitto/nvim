@@ -1,0 +1,13 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+--
+--
+--
+--  set cursor color
+-- highlight Cursor guifg=white guibg=black
+-- highlight iCursor guifg=white guibg=steelblue
+-- set guicursor=n-v-c:block-Cursor
+-- set guicursor+=i:ver100-iCursor
+-- set guicursor+=n-v-c:blinkon0
+-- set guicursor+=i:blinkwait10
