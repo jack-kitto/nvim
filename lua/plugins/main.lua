@@ -214,4 +214,9 @@ return {
     branch = "harpoon2",
     requires = { { "nvim-lua/plenary.nvim" } },
   },
+  {
+    "luckasRanarison/tailwind-tools.nvim",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    opts = {}, -- your configuration,
+  },
 }
