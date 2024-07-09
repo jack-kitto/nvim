@@ -236,4 +236,5 @@ return {
       { "<leader>nx", "<cmd>Telescope nx actions<CR>", desc = "nx actions" },
     },
   },
+  { "MunifTanjim/prettier.nvim" },
 }
