@@ -4,7 +4,7 @@
 
 -- GitHub keybindings for gh.nvim using LazyVim
 local map = vim.keymap.set
-
+map("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
 -- Todo
 map("n", "<leader>tt", "<cmd>TodoTelescope<cr>", { desc = "Search through all project todos" })
 map("n", "<leader>tq", "<cmd>TodoQuickFix<cr>", { desc = "Show all todos in your project" })
