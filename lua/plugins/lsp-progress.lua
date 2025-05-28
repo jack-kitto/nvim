@@ -38,12 +38,11 @@ return {
         separators = {
           component = " ",
           progress = " | ",
-          message = { pre = "(", post = ")" },
           percentage = { pre = "", post = "%% " },
           title = { pre = "", post = ": " },
           lsp_client_name = { pre = "[", post = "]" },
           spinner = { pre = "", post = "" },
-          message = { commenced = "In Progress", completed = "Completed" },
+          message = { pre = "(", post = ")", commenced = "In Progress", completed = "Completed" },
         },
         timer = {
           progress_enddelay = 500,
