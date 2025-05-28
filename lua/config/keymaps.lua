@@ -4,3 +4,4 @@
 
 local map = vim.keymap.set
 map("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
+map("n", "<leader>cn", "<cmd>LspRestart<cr>", { desc = "Restart LSP Server" })
