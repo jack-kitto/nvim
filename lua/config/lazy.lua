@@ -52,3 +52,12 @@ require("lazy").setup({
     },
   },
 })
+
+vim.diagnostic.config({
+  float = {
+    format = function(diagnostic)
+      local formatter = require("format-ts-errors")[diagnostic.code]
+      return formatter and formatter(diagnostic.message) or diagnostic.message
+    end,
+  },
+})
