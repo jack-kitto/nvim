@@ -52,3 +52,4 @@ require("lazy").setup({
     },
   },
 })
+require("mini.files").setup()
