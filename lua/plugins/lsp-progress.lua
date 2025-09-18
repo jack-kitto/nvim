@@ -18,7 +18,9 @@ return {
     }
 
     -- Replace lualine_c with your custom config
-    opts.options.theme = "gruvbox"
+    opts.options = vim.tbl_deep_extend("force", opts.options or {}, {
+      theme = "gruvbox",
+    })
     opts.sections.lualine_c = {
       {
         "lsp_progress",
